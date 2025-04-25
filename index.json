@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "orgs": [
+      {
+        "orgID": "org123",
+        "name": "Movius Templates",
+        "description": "Internal dev org for testing",
+        "templateFile": "orgs/movius.json",
+        "lastUpdated": "2025-04-25T14:00:00Z"
+      }
+    ]
+  }
