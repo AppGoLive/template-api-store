@@ -1,0 +1,43 @@
+{
+    "templateOrgID": "org123",
+    "templateData": {
+        "hosts": [
+            {
+                "primaryHost": "api.example.com",
+                "secondaryHost" : "api.example1.com",
+                "protocol": "https"
+            }
+        ],
+        "fieldRepo": {
+            "paramAll": "All",
+            "userID": "",
+            "name": "",
+            "organizationID": "",
+            "enterpriseID": "",
+            "deviceType": "",
+            "loginID": "",
+            "region": "",
+            "subOrganizationID": "",
+            "phoneNumber": "",
+            "featureNames": []
+        },
+        "headerRepo": {
+            "Content-Type-JSON": "application/json",
+            "Authorization": "",
+            "Content-Type-XML": "application/xml"
+        },
+        "templates": [
+            {
+                "name" : "GET_FEATURE_FLAGS",
+                "url": "/feature-flag/v1/get-feature-flag",
+                "method": "POST",
+                "header": {
+                    "Authorization": ""
+                },
+                "response": {
+
+                }
+            }
+        ]
+    }
+}
